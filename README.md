@@ -22,3 +22,24 @@ You can add processes, choose a scheduling algorithm, run the simulation, and se
 
 ```bash
 pip install matplotlib ttkbootstrap
+```
+
+## Run the app ForEach(file):
+```
+python app.py
+```
+```
+python main.py
+```
+
+## 1. FCFS (First Come First Served)
+
+### Description:
+FCFS executes processes in the order of their arrival. No preemption.
+
+### How it Works:
+
+- Sort processes by arrival time.
+- Execute each process fully before moving to the next.
+- Waiting time grows when long processes arrive early.
+- Time Complexity: O(n log n) (sorting)
